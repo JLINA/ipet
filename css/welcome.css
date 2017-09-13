@@ -1,0 +1,57 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body,html{
+	font-size: 12px;
+	height: 100%;
+	background: -webkit-linear-gradient(top,#ffbce6,#cd8af5); /* Safari 5.1 - 6 */
+	background: -o-linear-gradient(top,#ffbce6,#cd8af5); /* Opera 11.1 - 12*/
+	background: -moz-linear-gradient(top,#ffbce6,#cd8af5); /* Firefox 3.6 - 15*/
+	background: linear-gradient(top,#ffbce6,#cd8af5); /* 标准的语法 */
+}
+@media screen and (min-width: 480px) {
+	body,html{
+		font-size: 24px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	body,html{
+		font-size:30px;
+	}
+}
+section{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	margin-left: -7rem;
+	margin-top:-1.4rem;
+	width: 14.2rem;
+}
+section input:nth-child(1){
+	margin-right: 0.2rem;
+}
+section input{
+	margin-left: ;
+	padding:5px;
+	margin: 0px;
+	width: 7rem;
+	/*height:2rem;*/
+	font-size:1.2rem;
+	background-color: rgb(190,0,220);
+	border: none;
+	border-radius:0.5rem;
+	color:white;
+}
+/*@media screen and (min-width: 480px) {
+   section input{
+   	   font-size: 2rem;
+   	   padding: 0.8rem;
+   }
+}
+@media screen and (min-width:1024px) {
+   section input{
+   	   font-size: 3rem;
+   	   padding: 1.5rem;
+   }
+}*/

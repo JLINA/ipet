@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		   <div id="aa">
+		   	   
+		   </div>
+		   <script type="text/javascript">
+		   	      $(function(){
+		   	      	  $.ajax({
+		   	      	  	type:"get",
+		   	      	  	url:"../js/tehui.json",
+		   	      	    success:function(res){
+//		   	      	    	console.log(res) 
+                            var buf = [];
+                            //方法一
+//                          $.each(res, function(index) {
+//                          	    var $l=$('<li></li>');
+//                          	    $('<h3>'+this.title+'</h3>').appendTo($l);
+//                          	    buf.push($l);
+//                          }); 
+//                          console.log(buf);
+//                          $('#aa').html(buf);
+                            //方法二
+                            $.each(res, function(index) {
+                            	  buf.push('<h3>'+this.title+'</h3>');
+                            	   
+                            }); 
+                            $('#aa').html(buf.join(''));
+		   	      	    }
+		   	      	  });   
+		   	      })
+		   </script>
+	</body>
+
+</html>

@@ -1,0 +1,207 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,
+html {
+	font-size: 12px;
+	background-color:rgb(255,200,230);
+}
+body{
+	margin: 0px 0px 4rem 0px;	
+}
+.am-avg-sm-2>li {
+	width: 50%;
+}
+
+@media screen and (min-width: 480px) {
+	body,
+	html {
+		font-size: 24px;
+	}
+	.am-avg-sm-2>li {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	body,
+	html {
+		font-size: 30px;
+	}
+	.am-avg-sm-2>li {
+		width: 50%;
+	}
+}
+
+header {
+	padding: 0.4rem 0.3rem;
+	width: 100%;
+	font-size: 17px;
+	text-align: center;
+	background: -webkit-linear-gradient(left, #ffbce6, #cd8af5);
+	/* Safari 5.1 - 6 */
+	background: -o-linear-gradient(right, #ffbce6, #cd8af5);
+	/* Opera 11.1 - 12*/
+	background: -moz-linear-gradient(right, #ffbce6, #cd8af5);
+	/* Firefox 3.6 - 15*/
+	background: linear-gradient(to right, #ffbce6, #cd8af5);
+	/* 标准的语法 */
+}
+
+header i.fa-align-justify {
+	color: white;
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+}
+
+header i.fa-pencil {
+	color: white;
+	display: inline-block;
+	float: right;
+	padding-right: 10px;
+}
+
+header span {
+	color: white;
+	font-size: 1rem;
+}
+
+nav .adoptspan1 {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	padding: 5px;
+	font-weight: 600;
+	background-color: white;
+}
+.adoptdogcat{
+	margin: 0 !important;
+}
+.adoptdogcat span{
+	padding: 0.5rem 0rem;
+}
+.adoptcdbo{
+	margin-top: -0.7rem;
+}
+.active3 {
+	border-bottom: 2px solid rgba(210, 143, 243, 1);
+	display: block;
+}
+.sanjiaox{
+	display: flex;
+	display: -webkit-flex;
+	width: 100%;
+	margin: 0 !important;
+
+	height: 0.5rem;
+}
+.sanjiaox .sanjiaox_span{
+	position: relative;
+	flex: 1;
+	text-align: center;
+}
+.sanjiaox .sjx{
+	width: 0;
+    height: 0;
+    border:0.5rem solid transparent;
+    border-bottom:0.7rem solid rgba(210, 143, 243, 1);
+    position: absolute;
+    left:50%;
+    top: -0.5rem;
+}
+.adoptcd {
+	margin: 0.5rem;
+}
+
+.adoptcd li {
+	background-color: white;
+	border-radius:0.5rem;
+	padding: 3px;
+	border: 2px solid rgb(245, 200, 230);
+}
+
+.navdivo {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row-reverse;
+	flex-direction: row;
+	padding: 0.2rem 0rem;
+}
+
+.navdivt {
+	overflow: hidden;
+	/*超出部分隐藏*/
+	white-space: nowrap;
+	/*不换行*/
+	text-overflow: ellipsis;
+	/*超出部分省略号显示*/
+	color: #000000;
+}
+.navdivo span:nth-child(1) {
+	flex: 1;
+}
+.navdivo span:nth-child(2) {
+	flex: 2;
+	color: black;
+}
+.navdivo span:nth-child(3) {
+	flex: 1;
+	background-color: rgba(210, 143, 243, 1);
+	border-radius:1.5rem;
+	color: white;
+	padding:0px 1rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	text-align: center;
+	font-size: 1rem;
+}
+
+.navdivo img {
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+}
+
+.lovelike {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row-reverse;
+	flex-direction: row;
+}
+
+.lovelike span:nth-child(1) {
+	flex: 1;
+	text-align: left;
+}
+
+.lovelike span:nth-child(2) {
+	flex: 1;
+	text-align: right;
+}
+
+.lovelike i.fa-star {
+	color: #14A6EF;
+}
+
+.lovelike i.fa-heart {
+	color: red;
+}
+
+.lingang {
+	height:10rem;
+	width: 100%;
+	border: none;
+}
+.adoptgg{
+	margin: 0px !important;
+	text-align: center;
+}
+.adoptgg .fa-map-marker,.adoptgg .fa-sellsy{
+	color:#23CCFE;
+}
+.lovelike span{
+	color: #000000;
+}

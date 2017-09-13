@@ -1,0 +1,119 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body,html{
+	background-color:#E9ECF1;
+	font-size: 12px;
+}
+body{
+	margin: 0px 0px 4rem 0px;	
+}
+@media screen and (min-width: 480px) {
+	body,html{
+		font-size: 24px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	body,html{
+		font-size:30px;
+	}
+}
+header{
+	height: 9rem;
+	text-align: center;
+	background: -webkit-linear-gradient(left,rgba(210,143,243,0.3),rgba(250,183,231,1)); /* Safari 5.1 - 6 */
+	background: -o-linear-gradient(right,rgba(210,143,243,0.3),rgba(250,183,231,1)); /* Opera 11.1 - 12*/
+	background: -moz-linear-gradient(right,rgba(210,143,243,0.3),rgba(250,183,231,1)); /* Firefox 3.6 - 15*/
+	background: linear-gradient(to right, rgba(210,143,243,0.3), rgba(250,183,231,1)); /* 标准的语法 */
+}
+header dt img{
+	margin-top: 2rem;
+	width: 4rem;
+	height:4rem;
+	border-radius: 50%;
+	border:2px solid #D9D9D9;
+}
+.mynav{
+	position:static;
+	height: 3rem;
+	background-color: white;
+	padding: 0.5rem 0rem;
+}
+.mynav ul{
+	background-color: white !important;	
+	height:3rem;
+}
+.mynav ul li{
+	height:3rem;
+}
+.mynav ul li a{
+	height: 3rem;
+	line-height:1rem;
+}
+.mynav ul li span{
+	color: black;
+	font-size: 1rem !important;
+}
+.mynav ul li i.fa-envelope{
+	color:orangered;
+}
+.mynav ul li i.fa-map-marker{
+	color:#23ABF0;
+}
+.mynav ul li i.fa-jpy{
+	color:deeppink;
+}
+article{
+	margin-top:40px;
+}
+article ul{
+	padding: 0px;
+	margin: 0px;	
+}
+article ul li{
+	list-style: none;
+    background-color: white;
+	padding:0px 1rem;
+	text-align:left;
+}
+article ul li:nth-child(5){
+	margin-top:20px;
+}
+article ul li a{
+	display: block;
+	border-bottom: 1px solid #C2C2C2;	
+	width:100%;
+	height: 100%;
+	padding: 0.5rem 0rem;
+	color: black;
+	font-size:1.2rem;
+}
+article ul li a i.fa-star{
+	color: orangered;
+	padding-right: 1rem;
+}
+article ul li a i.fa-diamond{
+	color:orange;
+     padding-right: 1rem;
+}
+article ul li a i.fa-cart-arrow-down{
+	color:deeppink;
+	padding-right: 1rem;
+}
+article ul li a i.fa-phone{
+	color:greenyellow;
+	padding-right: 1rem;
+}
+article ul li a i.fa-cog{
+	color:green;
+	padding-right: 1rem;
+}
+article ul li a i.fa-comment{
+	color:#8A2BE2;
+	padding-right: 1rem;
+}
+article ul li a i.fa-minus-circle{
+	color: red;
+	padding-right: 1rem;
+}

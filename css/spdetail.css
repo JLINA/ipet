@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,
+html {
+	font-size: 12px;
+	background-color: white;
+}
+body{
+	margin: 0px 0px 4rem 0px;	
+}
+@media screen and (min-width: 480px) {
+	body,html{
+		font-size: 24px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	body,html{
+		font-size:30px;
+	}
+}
+header{
+	padding:0.4rem 0.3rem;
+	width: 100%;
+	font-size: 17px;
+	text-align: center;
+	background: -webkit-linear-gradient(left,#ffbce6,#cd8af5); /* Safari 5.1 - 6 */
+	background: -o-linear-gradient(right,#ffbce6,#cd8af5); /* Opera 11.1 - 12*/
+	background: -moz-linear-gradient(right,#ffbce6,#cd8af5); /* Firefox 3.6 - 15*/
+	background: linear-gradient(to right,#ffbce6,#cd8af5); /* 标准的语法 */
+}
+
+header i.fa-angle-left {
+	color: white;
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+}
+
+header i.fa-cart-plus {
+	color: white;
+	display: inline-block;
+	float: right;
+	padding-right: 10px;
+}
+
+header span {
+    color: white;
+    font-size: 1rem;}
+
+.oneswipers img {
+	height: 16rem;
+	width: 100%;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: 10;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+section{
+	padding:10px;
+}
+section h4{
+	height:5rem;
+	overflow: hidden;/*超出部分隐藏*/
+	margin: 0px;
+}
+section div span{
+	color: #8A2BE2;
+	font-size:1rem;
+	padding-right:10px;
+}
+section div span:nth-child(1){
+	font-weight:900;
+	font-size: 16px;
+}
+section div span:nth-child(2){
+	text-decoration: line-through;
+}
+section ul{
+   padding: 2rem 0rem;
+   margin: 0px;
+ }
+section ul li{
+	list-style: none;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+    flex-direction:row;
+    padding: 0.2rem;
+}
+section ul li span:nth-child(1){
+	color: #23CCFE;
+	flex:1;
+}
+section ul li span:nth-child(2){
+    flex: 8;
+}
+article ul li{
+	list-style: none;
+	display: inline-block;
+	width: 19%;
+}
+article ul li:nth-child(3){
+	display: inline-block;
+	text-align: center;
+}
+article ul li:nth-child(2),article ul li:nth-child(4){
+	display: inline-block;
+	border: 1px solid #C0C0C0;
+	height: 1px;
+}
+footer {
+			background-color:#CECECE;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-direction: row-reverse;
+			flex-direction: row;
+			position: fixed;bottom: 0px;
+			width: 100%;
+			height:2.5rem;
+		}	
+		footer .dll{
+			flex: 1;
+			height:2.5rem;
+			margin: 0px;
+			text-align:center;
+		}
+		footer .dll dd,footer .dll dt{
+			margin: 0px;
+			padding: 0px;		
+		}
+		footer .dll dd{
+			font-size:0.8rem;
+			margin-top:-0.3rem;
+			color:black;
+		}
+		footer i{
+			color: #23CCFE;;
+		}
+		footer .dll:nth-child(4){
+			background: -webkit-linear-gradient(left,#ffbce6,#cd8af5); /* Safari 5.1 - 6 */
+	background: -o-linear-gradient(right,#ffbce6,#cd8af5); /* Opera 11.1 - 12*/
+	background: -moz-linear-gradient(right,#ffbce6,#cd8af5); /* Firefox 3.6 - 15*/
+	background: linear-gradient(to right,#ffbce6,#cd8af5); /* 标准的语法 */
+		}

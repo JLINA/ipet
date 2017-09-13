@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	font-size: 12px;
+	overflow: auto;
+	height: 100%;
+	background-color:rgba(255,200,230,0.3);
+}
+body{
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+    flex-direction:column;
+}
+@media screen and (min-width: 480px) {
+	body,html{
+		font-size: 24px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	body,html{
+		font-size:30px;
+	}
+}
+header{
+	flex:0.1;
+}
+article{
+	flex:3;
+}
+footer{
+	flex:3;
+}
+header{
+	padding:0.4rem 0.3rem;
+	width: 100%;
+	font-size: 17px;
+	text-align: center;
+	background: -webkit-linear-gradient(left,#ffbce6,#cd8af5); /* Safari 5.1 - 6 */
+	background: -o-linear-gradient(right,#ffbce6,#cd8af5); /* Opera 11.1 - 12*/
+	background: -moz-linear-gradient(right,#ffbce6,#cd8af5); /* Firefox 3.6 - 15*/
+	background: linear-gradient(to right,#ffbce6,#cd8af5); /* 标准的语法 */
+}
+header i.fa-long-arrow-left{
+	color: white;
+	display: inline-block;
+	float: left;
+	padding-left: 5px;
+}
+header span{
+	color: white;
+	font-size: 1rem;
+}
+article{
+	display: block;
+	padding:20px 10px;
+}
+article input{
+	border: 1px solid #AAAAAA;
+	height:2.5rem;
+	width: 100%;
+	border-radius:3px;
+	margin-top: 5px;
+	font-size:0.7rem;
+}
+article p{
+	width: 100%;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+    flex-direction:row;
+}
+article p input{
+	flex: 5;
+	border-radius: 0px;
+	 height: 2.5rem;
+	 margin: 0 !important;
+}
+article p button{
+	flex: 3;
+	background-color:#3BB4F2;
+	border: none;
+	height: 2.5rem;
+	color: white;
+}
+article .tik{
+	padding: 20px 0px;
+	width: 100%;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+    flex-direction:row;
+   
+}
+article div input{
+	display: inline-block;
+	border: none !important;
+	margin: 0 !important;
+	/*flex:1;*/
+	width: 1.5rem;
+	height: 1.5rem;
+	background-color:#3BB4F2;
+	color: #3BB4F2;
+}
+article div span{
+
+	display: inline-block;
+	/*flex:9;*/
+	height:1.5rem;
+	padding:0 !important;
+	padding: 0;
+	margin: 0;
+}
+article div span a{
+	display: inline-block;
+	height:1.5rem;
+}
+.registersubmit{
+	margin-top: 30px;
+	font-size:1rem;
+	color:white;
+	background: -webkit-linear-gradient(left,#ffbce6,#cd8af5); /* Safari 5.1 - 6 */
+	background: -o-linear-gradient(right,#ffbce6,#cd8af5); /* Opera 11.1 - 12*/
+	background: -moz-linear-gradient(right,#ffbce6,#cd8af5); /* Firefox 3.6 - 15*/
+	background: linear-gradient(to right,#ffbce6,#cd8af5); /* 标准的语法 */
+}
+.tieps{
+    border: 1px solid red;
+    display: none;	
+    background-color: white;    
+    margin:0px;
+    padding: 0px;
+}
+.tiep{
+    border: 1px solid red;
+    display: none;	
+    background-color: white;    
+    margin:0px;
+    padding: 0px;
+}
+.tieps i.fa-times{
+	width: 10%;
+	display: inline-block;
+	color: red;
+}
+.logintip{
+	border: none;
+	display: inline-block;
+	color: red;
+    width:85%; 
+
+}
+
+.tik div{
+	margin: auto;
+}
+.tik div input{
+	float:left;
+}

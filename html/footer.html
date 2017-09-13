@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+		<title></title>
+		<script src="../js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<style type="text/css">
+		footer {
+			background: -webkit-linear-gradient(left, #ffbce6, #cd8af5);
+			background: -o-linear-gradient(right, #ffbce6, #cd8af5);
+			background: -moz-linear-gradient(right, #ffbce6, #cd8af5);
+			background: linear-gradient(to right, #ffbce6, #cd8af5);
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-direction: row-reverse;
+			flex-direction: row;
+			position: fixed;bottom: 0px;
+			width: 100%;
+			height:3rem;
+		}	
+		footer .dll{
+			flex: 1;
+			height:2.5rem;
+			margin: 0px;
+			text-align:center;
+		}
+		footer .dll dd,footer .dll dt{
+			margin: 0px;
+			padding: 0px;		
+		}
+		footer .dll dd{
+			font-size:0.8rem;
+			margin-top:-0.3rem;
+			color: white;
+		}
+		footer i{
+			color: white;
+		}
+	</style>
+
+	<body>
+		<footer>
+			<dl class="dll">
+				<a href="index.html">
+					<dt><i class="fa fa-bank" style="font-size:1.3rem"></i></dt>
+					<dd>首页</dd>
+				</a>
+			</dl		
+			><dl class="dll">
+				<a href="tehui.html">
+					<dt><i class="fa fa-flag-o" style="font-size:1.3rem"></i></dt>
+					<dd>特惠</dd>
+				</a>
+			</dl
+			
+			><dl class="dll">
+				<a href="adopt.html">
+					<dt><i class="fa fa-paw" style="font-size:1.3rem"></i></dt>
+					<dd>领养</dd>
+				</a>
+			</dl
+			><dl class="dll">
+				<a href="my.html">
+					<dt><i class="fa fa-user" style="font-size:1.3rem"></i></dt>
+					<dd>我的</dd>
+				</a>
+			</dl>
+		</footer>
+	</body>
+	<script type="text/javascript">
+		$(function() {
+			var wangzhi = window.location.href;
+			if (wangzhi.match("index")) {
+				$(".fa-bank").css({
+					"color": "#8A2BE2"
+				});
+			} else if (wangzhi.match("tehui")) {
+				$(".fa-flag-o").css({
+					"color": "#8A2BE2"
+				});
+			} else if (wangzhi.match("adopt")) {
+				$(".fa-paw").css({
+					"color": "#8A2BE2"
+				});
+			} else if (wangzhi.match("my")) {
+				$(".fa-user").css({
+					"color": "#8A2BE2"
+				});
+			}
+		})
+	</script>
+
+</html>
